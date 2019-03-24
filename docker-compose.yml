@@ -1,0 +1,7 @@
+version: '3'
+services:
+  lunarium:
+    image: lunarium
+    build: .
+    container_name: lunarium-docker
+    restart: always
