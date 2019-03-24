@@ -14,3 +14,9 @@ docker run -it -d lunarium-docker:latest
 sudo docker exec -it CONTAINER_ID /bin/bash
 ```
 Use the daemon as you normally would.
+
+## Using Docker Compose
+If you choose to use docker-compose, its as simple as running this command in the `lunarium-docker` directory.
+```
+docker-compose up -d
+```
