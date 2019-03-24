@@ -5,3 +5,5 @@ services:
     build: .
     container_name: lunarium-docker
     restart: always
+    volumes:
+      - ./lunarium-blockchain:/root/.lunarium
