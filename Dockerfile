@@ -15,6 +15,6 @@ RUN apt-get update \
         && cd lunarium-1.1.1/bin \
         && mv lunariumd lunarium-cli /usr/local/bin \
         && cd /tmp \
-        && rm -Rf feirm*
+        && rm -Rf lunarium*
 
-CMD ["lunariumd -daemon"]
+CMD ["lunariumd"]
