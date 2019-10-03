@@ -3,7 +3,9 @@ services:
   lunarium:
     image: lunarium
     build: .
-    container_name: lunarium-docker
-    restart: always
-    volumes:
-      - ./lunarium-blockchain:/root/.lunarium
+    deploy:
+      replicas: 1    
+    ports:
+      - "51472:51472"
+    volumes: 
+      - /opt/lunarium/data/:/home/lunarium/.lunarium/

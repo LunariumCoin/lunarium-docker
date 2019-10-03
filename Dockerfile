@@ -16,7 +16,7 @@ tar xvzf /tmp/lunarium.tar.gz && \
 rm /tmp/lunarium.tar.gz && \
 ln -sf lunarium-$LUNARIUM_VERSION lunarium && \
 ln -sf /opt/lunarium/bin/lunariumd /usr/local/bin/lunariumd && \
-ln -sf /opt/lunarium/bin/lunarium-cli /usr/local/bin/pivx-cli && \
+ln -sf /opt/lunarium/bin/lunarium-cli /usr/local/bin/lunarium-cli && \
 ln -sf /opt/lunarium/bin/lunarium-tx /usr/local/bin/lunarium-tx && \
 adduser --uid 1000 --system ${LUNARIUM_USER} && \
 mkdir -p /home/${LUNARIUM_USER}/.lunarium/ && \
