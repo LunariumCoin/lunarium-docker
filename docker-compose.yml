@@ -6,6 +6,6 @@ services:
     deploy:
       replicas: 1    
     ports:
-      - "51472:51472"
+      - "44071:44071"
     volumes: 
       - /opt/lunarium/data/:/home/lunarium/.lunarium/
